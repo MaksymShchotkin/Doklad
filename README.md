@@ -27,11 +27,11 @@ moment.js - бібліотека, яка надає нам більше опці
 Установка буде проходити через npm, завдяки команді `npm install moment`. Переконайтеся що у вас вже установленні NodeJS та NPM. 
 Для перевірки працездатності - відкрийте консоль та напишіть:
 
-`var moment = require('moment');
+`var moment = require('moment');`
 
-var a = moment().toString();
+`var a = moment().toString();`
 
-console.log(a);`
+`console.log(a);`
 
 У результаті ви маєте отримати вашу нинішню дату. 
 
