@@ -1,2 +1,2 @@
-# Doklad
-Doklad about moment.js
+# Робота з датами. Бібліотека moment.js
+moment.js - бібліотека, яка дозволяє використовувати 
