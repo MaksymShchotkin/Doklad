@@ -30,7 +30,7 @@ moment.js - бібліотека, яка надає нам більше опці
 
 * Для перевірки працездатності - створюємо файл test.js, та вводимо в нього наступний код:
 
-`var moment = require('moment');`
+`var moment = require('moment');` 
 
 `var a = moment().toString();`
 
@@ -46,15 +46,15 @@ moment.js - бібліотека, яка надає нам більше опці
 
 ### Форматування дат
 
-`moment().format('MMMM Do YYYY, h:mm:ss a'); // квітень 27-го 2021, 11:00:16 вечора'
+`moment().format('MMMM Do YYYY, h:mm:ss a'); // квітень 27-го 2021, 11:00:16 вечора
 
-'moment().format('dddd');                     // вівторок'
+moment().format('dddd');                     // вівторок
 
-'moment().format("MMM Do YY");                // квіт 27-го 21'
+moment().format("MMM Do YY");                // квіт 27-го 21
 
-'moment().format('YYYY [escaped] YYYY');      // 2021 escaped 2021'
+moment().format('YYYY [escaped] YYYY');      // 2021 escaped 2021
 
-'moment().format();                           // 2021-04-27t23:00:16+03:00`
+moment().format();                           // 2021-04-27t23:00:16+03:00`
 
 ## Лекція створена Щоткіним Максимом з ІВ-91
 
