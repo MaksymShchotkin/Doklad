@@ -30,12 +30,11 @@ moment.js - бібліотека, яка надає нам більше опці
 
 * Для перевірки працездатності - створюємо файл test.js, та вводимо в нього наступний код:
 
-`var moment = require('moment');` 
-
-`var a = moment().toString();`
-
-`console.log(a);`
-
+```js
+var moment = require('moment');
+var a = moment().toString();
+console.log(a);
+```
 ![Приклад](/src/screen1.jpg)
 
 * Зберігаємо файл. Відкриваємо консоль та пишемо: `node C\...` та шлях до файлу test.js. При виконанні файла ми маємо отримати нинішню актуальну дату та час.
