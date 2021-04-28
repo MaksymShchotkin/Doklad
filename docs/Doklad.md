@@ -44,17 +44,49 @@ moment.js - бібліотека, яка надає нам більше опці
 
 ## Найголовніші методи бібліотеки
 
-### Форматування дат
+### Форматування дат:
 
-`moment().format('MMMM Do YYYY, h:mm:ss a'); // квітень 27-го 2021, 11:00:16 вечора
+`moment().format('MMMM Do YYYY, h:mm:ss a'); // квітень 27-го 2021, 11:00:16 вечора`
 
-moment().format('dddd');                     // вівторок
+`moment().format('dddd');                     // вівторок`
 
-moment().format("MMM Do YY");                // квіт 27-го 21
+`moment().format("MMM Do YY");                // квіт 27-го 21`
 
-moment().format('YYYY [escaped] YYYY');      // 2021 escaped 2021
+`moment().format('YYYY [escaped] YYYY');      // 2021 escaped 2021`
 
-moment().format();                           // 2021-04-27t23:00:16+03:00`
+`moment().format();                           // 2021-04-27t23:00:16+03:00`
+
+### Відносний час:
+
+`moment("20111031", "YYYYMMDD").fromNow(); // 9 років тому`
+
+`moment("20120620", "YYYYMMDD").fromNow(); // 9 років тому`
+
+`moment().startOf('day').fromNow();        // 9 годин тому`
+
+`moment().endOf('day').fromNow();          // за 15 годин`
+
+`moment().startOf('hour').fromNow();       // годину тому`
+
+### Маніпуляція датами:
+
+`moment().subtract(10, 'days').calendar(); // 18.04.2021`
+
+`moment().subtract(6, 'days').calendar();  // Минулого четверга о 08:57`
+
+`moment().subtract(3, 'days').calendar();  // Минулої неділі о 08:57`
+
+`moment().subtract(1, 'days').calendar();  // Вчора о 08:57`
+
+`moment().calendar();                      // Сьогодні о 08:57`
+
+`moment().add(1, 'days').calendar();       // Завтра о 08:57`
+
+`moment().add(3, 'days').calendar();       // У суботу о 08:57`
+
+`moment().add(10, 'days').calendar();      // 08.05.2021`
+
+
 
 ## Лекція створена Щоткіним Максимом з ІВ-91
 
